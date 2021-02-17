@@ -36,3 +36,78 @@
     font-weight: normal;
     text-align: justify;
 }
+
+.organograma {
+    width: 750px;
+    height: 590px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.secao-vermelha {
+    width: 750px;
+    height: 227px;
+}
+
+.caixa-1 {
+    width: 127px;
+    height: 51px;
+    background: linear-gradient(270.11deg, rgba(0, 0, 0, 0.37) 4.1%, rgba(255, 255, 255, 0) 97.46%), #CD191E;
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.titulo-caixas {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p#titulo-caixa-1 {
+    font-size: 15pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.tooltip-textos {
+    visibility: hidden;
+    color: #000;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span#texto-caixa-1 {
+    padding: 3px;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 87px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 2px solid #CD191E;
+    font-size: 11pt;
+}
+
+.tooltip:hover .tooltip-textos{
+    visibility: visible;
+    opacity: 1;
+}
