@@ -111,3 +111,21 @@ span#texto-caixa-1 {
     visibility: visible;
     opacity: 1;
 }
+
+#ligatura-1 {
+    width: 2.81px;
+    height: 37.64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.retangulo-vermelho {
+    margin-top: 2px;
+    background: #CD191E;
+}
+
+.retangulo-vertical {
+    width: 4px;
+    height: 8px;
+}
