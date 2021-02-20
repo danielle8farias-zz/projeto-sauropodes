@@ -174,3 +174,11 @@ span#texto-caixa-2 {
     background: #FFFFFF;
     border: 2px solid #CD191E;
 }
+
+#ligatura-2 {
+    width: 2.81px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
