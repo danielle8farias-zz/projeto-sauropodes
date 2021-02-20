@@ -224,14 +224,18 @@ p#subtitulo-caixa-verde-1 {
 }
 
 #tooltip-caixa-verde-1 {
-    font-size: 10pt;
-    border: 2px solid #2F9E41;
     position: absolute;
     top: 44px;
     left: -30px;
     padding: 0;
     width: 80px;
     height: 25px;
+}
+
+.tooltips-verdes {
+    font-size: 10pt;
+    border: 2px solid #2F9E41;
+    background-color: #fff;
 }
 
 #ligatura-3 {
@@ -254,5 +258,56 @@ p#subtitulo-caixa-verde-1 {
 .retangulo-verde-horizontal {
     margin-top: 2px;
     margin-right: 2px;
+    background: #195229;
+}
+
+.caixa-verde-2 {
+    position: absolute;
+    left: 52.2%;
+    top: -12%;
+}
+
+p#titulo-caixa-verde-2 {
+    font-size: 9.5pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+
+p#subtitulo-caixa-verde-2 {
+    font-size: 7pt;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+}
+
+#tooltip-caixa-verde-2 {
+    position: absolute;
+    top: 44px;
+    left: 40px;
+    padding: 0;
+    width: 95px;
+    height: 25px;
+}
+
+#ligatura-4 {
+    width: 4px;
+    height: 94px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.retangulo-verde-vertical {
+    margin-top: 2px;
+    width: 4px;
+    height: 8px;   
     background: #195229;
 }
