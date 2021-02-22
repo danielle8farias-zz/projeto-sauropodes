@@ -383,7 +383,7 @@ p#subtitulo-caixa-verde-3 {
     margin: 0 auto;
     position: absolute;
     left: 72%;
-    margin-top: -3%;
+    margin-top: -2.5%;
 }
 
 p#titulo-caixa-verde-4 {
@@ -410,4 +410,32 @@ p#subtitulo-caixa-verde-4 {
     position: absolute;
     top: 50px;
     left: 70px;
+    width: 80px;
+}
+
+.secao-verde-3 {
+    position: relative;
+    width: 750px;
+    height: 250px;
+    display: inline;
+}
+
+.subsecao-verde-3-1 {
+    float: left;
+    width: 250px;
+    height: 120px;
+    position: relative;
+}
+
+#ligatura-6{
+    width: 5px;
+    height: 135px;
+    position: absolute;
+    left: 64%;
+    top: 2.5%;
+}
+
+.retangulo-verde-claro-vertical {
+    margin-top: 2px;
+    background: #7CBC6C;
 }
