@@ -311,3 +311,10 @@ p#subtitulo-caixa-verde-2 {
     height: 8px;   
     background: #195229;
 }
+
+.secao-verde-2 {
+    position: relative;
+    width: 750px;
+    height: 40px;
+    margin-top: -18px;
+}
