@@ -363,3 +363,15 @@ p#subtitulo-caixa-verde-3 {
     top: 48px;
     left: -30px;
 }
+
+#ligatura-5 {
+    width: 310px;
+    height: 4px;
+    display: inline-flex;
+    margin-left: 3px;
+    margin-top: 2px;
+    position: absolute;
+    left: 57%;
+    margin-top: 10px;
+    transform: translate(-65%, -50%);
+}
