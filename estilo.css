@@ -439,3 +439,17 @@ p#subtitulo-caixa-verde-4 {
     margin-top: 2px;
     background: #7CBC6C;
 }
+
+#ligatura-7 {
+    width: 70px;
+    height: 10px;
+    display: inline-flex;
+    position: absolute;
+    top: 30%;
+    left: 66%;
+}
+
+.retangulo-verde-claro-horizontal {
+    margin-right: 2px;    
+    background: #7CBC6C;
+}
