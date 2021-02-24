@@ -99,9 +99,8 @@ span#texto-caixa-1 {
     padding: 3px;
     position: absolute;
     top: 40px;
-    left: 70px;
-    width: 87px;
-    height: 30px;
+    left: 90px;
+    width: 50px;
     background: #FFFFFF;
     border: 2px solid #CD191E;
     font-size: 11pt;
@@ -167,9 +166,7 @@ span#texto-caixa-2 {
     position: absolute;
     top: 40px;
     left: 70px;
-    font-size: 11pt;
     width: 100px;
-    height: 30px;
     font-size: 9pt;
     background: #FFFFFF;
     border: 2px solid #CD191E;
@@ -225,10 +222,10 @@ p#subtitulo-caixa-verde-1 {
 
 #tooltip-caixa-verde-1 {
     position: absolute;
-    top: 44px;
+    top: 40px;
     left: -30px;
     padding: 0;
-    width: 80px;
+    width: 60px;
     height: 25px;
 }
 
