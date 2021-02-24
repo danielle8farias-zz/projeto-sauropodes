@@ -496,5 +496,14 @@ p#subtitulo-caixa-verde-5 {
     height: 135px;
     position: absolute;
     left: 38%;
-    top: -5%;
+    top: -1.5%;
+}
+
+#ligatura-9 {
+    width: 70px;
+    height: 10px;
+    display: inline-flex;
+    position: absolute;
+    top: 27%;
+    left: 10.5%;
 }
