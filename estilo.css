@@ -483,3 +483,18 @@ p#subtitulo-caixa-verde-5 {
     width: 50px;
     font-size: 9pt;
 }
+
+.subsecao-verde-3-2 {
+    float: right;
+    width: 250px;
+    height: 120px;
+    position: relative;
+}
+
+#ligatura-8{
+    width: 5px;
+    height: 135px;
+    position: absolute;
+    left: 38%;
+    top: -5%;
+}
