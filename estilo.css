@@ -566,3 +566,11 @@ p#subtitulo-caixa-verde-6 {
     top: -15%;
     left: 20%;
 }
+
+#ligatura-11{
+    width: 5px;
+    height: 50px;
+    position: absolute;
+    left: 20%;
+    top: -14%;
+}
