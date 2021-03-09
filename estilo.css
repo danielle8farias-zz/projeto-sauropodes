@@ -574,3 +574,38 @@ p#subtitulo-caixa-verde-6 {
     left: 20%;
     top: -14%;
 }
+
+.caixa-verde-7 {
+    width: 100px;
+    height: 52px;
+    position: absolute;
+    top: -1.2%;
+}
+
+p#titulo-caixa-verde-7 {
+    font-size: 10.5pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #222;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+}
+
+p#subtitulo-caixa-verde-7 {
+    font-size: 8pt;
+    line-height: 10px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+}
+
+#tooltip-caixa-verde-7 {
+    position: absolute;
+    width: 70px;
+    top: 45px;
+    left: -30px;
+    font-size: 9pt;
+}
