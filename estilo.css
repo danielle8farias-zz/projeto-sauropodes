@@ -6,15 +6,15 @@
 
 .corpo-pagina {
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .parte-superior {
+    font-family: 'Open Sans', sans-serif;
     line-height: 16px;
     color: #000;
     display: block;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     width: 749px;
     height: 90px;
     margin-left: auto;
@@ -22,16 +22,15 @@
 }
 
 .parte-superior h1 {
-    font-size: 15pt;
+    font-size: 12pt;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .parte-superior p {
     font-size: 11pt;
     margin-top: 10px;
-    margin-bottom: 10px;
     font-style: normal;
     font-weight: normal;
     text-align: justify;
@@ -46,12 +45,12 @@
     margin-top: 10px;
 }
 
-.secao-vermelha {
+.secao-reitoria-propex {
     width: 750px;
     height: 227px;
 }
 
-.caixa-1 {
+.caixa-reitoria {
     width: 127px;
     height: 51px;
     background: linear-gradient(270.11deg, rgba(0, 0, 0, 0.37) 4.1%, rgba(255, 255, 255, 0) 97.46%), #CD191E;
@@ -60,19 +59,10 @@
     position: relative;
 }
 
-.tooltip {
-    position: relative;
-}
-
-.titulo-caixas,
-.subtitulo-caixas {
+p#caixa-reitoria {
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-p#titulo-caixa-1 {
     font-size: 15pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -80,33 +70,38 @@ p#titulo-caixa-1 {
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-.tooltip-textos {
+.tooltip {
+    position: relative;
+}
+
+.tooltip-texto {
     visibility: hidden;
     color: #000;
     text-align: center;
     z-index: 1;
+    padding: 4px;
     opacity: 0;
     transition: opacity 0.4s;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-span#texto-caixa-1 {
-    padding: 3px;
     position: absolute;
     top: 40px;
-    left: 90px;
-    width: 50px;
+    left: 70px;
+    width: 87px;
+    height: 30px;
     background: #FFFFFF;
     border: 2px solid #CD191E;
-    font-size: 11pt;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10pt;
 }
 
-.tooltip:hover .tooltip-textos{
+.tooltip:hover .tooltip-texto{
     visibility: visible;
     opacity: 1;
 }
@@ -119,17 +114,14 @@ span#texto-caixa-1 {
     margin-right: auto;
 }
 
-.retangulo-vermelho {
+.ret-vermelho {
     margin-top: 2px;
+    width: 4px;
+    height: 8px;    
     background: #CD191E;
 }
 
-.retangulo-vertical {
-    width: 4px;
-    height: 8px;
-}
-
-.caixa-2 {
+.caixa-propex {
     width: 109px;
     height: 52px;
     border: 3px solid #CD191E;
@@ -140,198 +132,10 @@ span#texto-caixa-1 {
     margin-bottom: 0;
 }
 
-p#titulo-caixa-2 {
-    font-size: 10.5pt;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #222;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-}
-
-p#subtitulo-caixa-2 {
-    font-weight: 600;
-    font-size: 7pt;
-    line-height: 9px;
-    color: #222;
-    text-align: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-}
-
-span#texto-caixa-2 {
-    padding: 3px;
-    position: absolute;
-    top: 40px;
-    left: 70px;
-    width: 100px;
-    font-size: 9pt;
-    background: #FFFFFF;
-    border: 2px solid #CD191E;
-}
-
-#ligatura-2 {
-    width: 2.81px;
-    height: 90px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.secao-verde-1 {
-    position: relative;
-    width: 750px;
-    height: 100px;
-}
-
-.caixa-verde-cheia {
-    margin: 0 auto;
-    width: 95px;
-    height: 45px;
-    background: linear-gradient(270deg, rgba(219, 243, 69, 0.56) 19.58%, rgba(255, 255, 255, 0) 100%), #2F9E41;
-    border-radius: 13px;
-}
-
-.caixa-verde-1 {
-    position: absolute;
-    left: 35.3%;
-    top: -12%;
-}
-
-p#titulo-caixa-verde-1 {
-    font-size: 9pt;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-}
-
-p#subtitulo-caixa-verde-1 {
-    font-size: 8pt;
-    line-height: 10px;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    top: 66%;
-    left: 50%;
-}
-
-#tooltip-caixa-verde-1 {
-    position: absolute;
-    top: 40px;
-    left: -30px;
-    padding: 0;
-    width: 60px;
-    height: 25px;
-}
-
-.tooltips-verdes {
-    font-size: 10pt;
-    border: 2px solid #2F9E41;
-    background-color: #fff;
-}
-
-#ligatura-3 {
-    width: 38px;
-    height: 8px;
-    display: inline-flex;
-    margin-left: 3px;
-    position: absolute;
-    left: 50.3%;
-    top: 8px;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-
-.retangulo-horizontal {
-    width: 8px;
-    height: 4px;
-}
-
-.retangulo-verde-horizontal {
-    margin-top: 2px;
-    margin-right: 2px;
-    background: #195229;
-}
-
-.caixa-verde-2 {
-    position: absolute;
-    left: 52.2%;
-    top: -12%;
-}
-
-p#titulo-caixa-verde-2 {
-    font-size: 9.5pt;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-}
-
-p#subtitulo-caixa-verde-2 {
-    font-size: 7pt;
-    line-height: 10px;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    top: 66%;
-    left: 50%;
-}
-
-#tooltip-caixa-verde-2 {
-    position: absolute;
-    top: 44px;
-    left: 40px;
-    padding: 0;
-    width: 95px;
-    height: 25px;
-}
-
-#ligatura-4 {
-    width: 4px;
-    height: 94px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
-}
-
-.retangulo-verde-vertical {
-    margin-top: 2px;
-    width: 4px;
-    height: 8px;   
-    background: #195229;
-}
-
-.secao-verde-2 {
-    position: relative;
-    width: 750px;
-    height: 40px;
-    margin-top: -18px;
-}
-
-.caixa-verde-3 {
-    width: 120px;
-    height: 57px;
-    position: absolute;
-    left: 14.2%;
-    top: -35%;
-}
-
-.caixa-verde-vazada {
-    border: 2px solid #2F9E41;
-    background-color: #fff;
-    border-radius: 12px;
-    margin: 0 auto;
-}
-
-p#titulo-caixa-verde-3 {
+p#caixa-propex {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -343,7 +147,209 @@ p#titulo-caixa-verde-3 {
     transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-3 {
+p#propex-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7pt;
+    line-height: 9px;
+    color: #222;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#tooltip-propex {
+    width: 100px;
+    height: 30px;
+}
+
+span#tooltip-propex {
+    font-size: 9pt;
+}
+
+#ligatura-2 {
+    width: 2.81px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secao-cep-copex {
+    position: relative;
+    width: 750px;
+    height: 100px;
+}
+
+.caixa-cep {
+    width: 95px;
+    height: 45px;
+    background: linear-gradient(270deg, rgba(219, 243, 69, 0.56) 19.58%, rgba(255, 255, 255, 0) 100%), #2F9E41;
+    border-radius: 13px;
+    margin: 0 auto;
+    position: absolute;
+    left: 35.3%;
+    top: -25%;
+}
+
+p#caixa-cep {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p#cep-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8pt;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#tooltip-cep {
+    border: 2px solid #2F9E41;
+    position: absolute;
+    top: 44px;
+    left: -30px;
+    padding: 0;
+    width: 80px;
+    height: 25px;
+}
+
+#ligatura-3 {
+    width: 38px;
+    height: 8px;
+    display: inline-flex;
+    margin-left: 3px;
+    position: absolute;
+    left: 50.3%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.ret-verde-horizontal {
+    margin-top: 2px;
+    width: 8px;
+    height: 4px;
+    margin-right: 2px;    
+    background: #195229;
+}
+
+.caixa-copex {
+    width: 95px;
+    height: 45px;
+    background: linear-gradient(270deg, rgba(219, 243, 69, 0.56) 19.58%, rgba(255, 255, 255, 0) 100%), #2F9E41;
+    border-radius: 13px;
+    margin: 0 auto;
+    position: absolute;
+    left: 52.2%;
+    top: -25%;
+}
+
+p#caixa-copex {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9.5pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p#copex-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7pt;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#ligatura-4 {
+    width: 4px;
+    height: 94px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    padding-top: 2px;
+}
+
+.ret-verde {
+    margin-top: 2px;
+    width: 4px;
+    height: 8px;   
+    background: #195229;
+}
+
+.secao-dpp-direx {
+    position: relative;
+    width: 750px;
+    height: 40px;
+    margin-top: -18px;
+}
+
+.caixa-dpp {
+    width: 110px;
+    height: 57px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
+    position: absolute;
+    left: 14.6%;
+    margin-top: -3%;
+}
+
+p#caixa-dpp {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.5pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #222;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p#dpp-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 7.5pt;
     line-height: 10px;
     color: #000;
@@ -351,36 +357,44 @@ p#subtitulo-caixa-verde-3 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-3 {
+#tooltip-dpp {
+    border: 2px solid #2F9E41;
     position: absolute;
-    width: 60px;
     top: 48px;
-    left: -30px;
+    left: -54px;
 }
 
 #ligatura-5 {
-    width: 310px;
+    width: 420px;
     height: 4px;
     display: inline-flex;
     margin-left: 3px;
     margin-top: 2px;
     position: absolute;
     left: 57%;
-    margin-top: 10px;
-    transform: translate(-65%, -50%);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
-.caixa-verde-4 {
+.caixa-direx {
     width: 110px;
     height: 57px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
     left: 72%;
-    margin-top: -2.5%;
+    margin-top: -3%;
 }
 
-p#titulo-caixa-verde-4 {
+p#caixa-direx {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -388,9 +402,14 @@ p#titulo-caixa-verde-4 {
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-4 {
+p#direx-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 7.5pt;
     line-height: 10px;
     color: #000;
@@ -398,23 +417,25 @@ p#subtitulo-caixa-verde-4 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-4 {
+#tooltip-direx {
+    border: 2px solid #2F9E41;
     position: absolute;
-    top: 50px;
+    top: 52px;
     left: 70px;
-    width: 80px;
 }
 
-.secao-verde-3 {
+.secao-dpa-dri {
     position: relative;
     width: 750px;
     height: 250px;
     display: inline;
 }
 
-.subsecao-verde-3-1 {
+.secao-dpa {
     float: left;
     width: 250px;
     height: 120px;
@@ -426,11 +447,13 @@ p#subtitulo-caixa-verde-4 {
     height: 135px;
     position: absolute;
     left: 64%;
-    top: 2.5%;
+    top: -5%;
 }
 
-.retangulo-verde-claro-vertical {
+.ret-verde-claro {
     margin-top: 2px;
+    width: 4px;
+    height: 10px;    
     background: #7CBC6C;
 }
 
@@ -443,20 +466,28 @@ p#subtitulo-caixa-verde-4 {
     left: 66%;
 }
 
-.retangulo-verde-claro-horizontal {
+.ret-verde-claro-horizontal {
+    width: 8px;
+    height: 4px;
     margin-right: 2px;    
     background: #7CBC6C;
 }
 
-.caixa-verde-5 {
+.caixa-dpa {
     width: 110px;
     height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
     left: 94%;
     top: 10%;
 }
 
-p#titulo-caixa-verde-5 {
+p#caixa-dpa {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -464,9 +495,14 @@ p#titulo-caixa-verde-5 {
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-5 {
+p#dpa-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 7.5pt;
     line-height: 10px;
     color: #000;
@@ -474,17 +510,19 @@ p#subtitulo-caixa-verde-5 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-5 {
+#tooltip-dpa {
+    border: 2px solid #2F9E41;
     position: absolute;
     top: 46px;
-    left: 80px;
-    width: 50px;
+    left: 50px;
     font-size: 9pt;
 }
 
-.subsecao-verde-3-2 {
+.secao-dri {
     float: right;
     width: 250px;
     height: 120px;
@@ -496,7 +534,7 @@ p#subtitulo-caixa-verde-5 {
     height: 135px;
     position: absolute;
     left: 38%;
-    top: -1.5%;
+    top: -5%;
 }
 
 #ligatura-9 {
@@ -504,19 +542,25 @@ p#subtitulo-caixa-verde-5 {
     height: 10px;
     display: inline-flex;
     position: absolute;
-    top: 27%;
+    top: 30%;
     left: 10.5%;
 }
 
-.caixa-verde-6 {
+.caixa-dri {
     width: 110px;
     height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
     left: -34%;
     top: 10%;
 }
 
-p#titulo-caixa-verde-6 {
+p#caixa-dri {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -524,9 +568,14 @@ p#titulo-caixa-verde-6 {
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-6 {
+p#dri-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 7.3pt;
     line-height: 10px;
     color: #000;
@@ -534,26 +583,28 @@ p#subtitulo-caixa-verde-6 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-6 {
+#tooltip-dri {
+    border: 2px solid #2F9E41;
     position: absolute;
     top: 46px;
     left: -30px;
-    width: 78px;
     font-size: 8.5pt;
 }
 
-.secao-verde-4 {
+.secao-coap-coex{
     width: 750px;
     height: 250px;
     position: relative;
     display: inline-flex;
 }
 
-.subsecao-verde-4-1 {
-    width: 400px;
-    height: 100px;
+.secao-coap-public {
+    width: 250px;
+    height: 250px;
     position: relative;
     display: inline-flex;
 }
@@ -563,7 +614,7 @@ p#subtitulo-caixa-verde-6 {
     height: 10px;
     display: inline-flex;
     position: absolute;
-    top: -25%;
+    top: -8%;
     left: 20%;
 }
 
@@ -572,17 +623,24 @@ p#subtitulo-caixa-verde-6 {
     height: 50px;
     position: absolute;
     left: 20%;
-    top: -25%;
+    top: -7.3%;
 }
 
-.caixa-verde-7 {
-    width: 100px;
+.caixa-coap {
+    width: 110px;
     height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
-    top: -1.2%;
+    left: -1%;
+    top: 8%;
 }
 
-p#titulo-caixa-verde-7 {
+p#caixa-coap {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -590,9 +648,14 @@ p#titulo-caixa-verde-7 {
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-7 {
+p#coap-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 8pt;
     line-height: 10px;
     color: #000;
@@ -600,25 +663,33 @@ p#subtitulo-caixa-verde-7 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-7 {
+#tooltip-coap {
+    border: 2px solid #2F9E41;
     position: absolute;
-    width: 70px;
     top: 45px;
     left: -30px;
     font-size: 9pt;
 }
 
-.caixa-verde-8 {
+.caixa-public {
     width: 110px;
     height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
     left: 45%;
-    top: -1%;
+    top: 8%;
 }
 
-p#titulo-caixa-verde-8 {
+p#caixa-public {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 10.5pt;
     line-height: 20px;
     text-transform: uppercase;
@@ -626,9 +697,14 @@ p#titulo-caixa-verde-8 {
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-8 {
+p#public-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 8pt;
     line-height: 10px;
     color: #000;
@@ -636,17 +712,19 @@ p#subtitulo-caixa-verde-8 {
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-8 {
+#tooltip-public {
+    border: 2px solid #2F9E41;
     position: absolute;
-    width: 70px;
     top: 45px;
     left: 50px;
     font-size: 9pt;
 }
 
-.subsecao-verde-4-2 {
+.secao-cac-coex {
     width: 250px;
     height: 250px;
     margin-left: 200px;
@@ -659,43 +737,204 @@ p#subtitulo-caixa-verde-8 {
     height: 10px;
     display: inline-flex;
     position: absolute;
-    top: -13%;
-    left: 60%;
+    top: -8%;
+    left: 58.5%;
 }
 
 #ligatura-13{
     width: 5px;
     position: absolute;
-    left: 101.6%;
-    top: -11.7%;
+    left: 100%;
+    top: -7.3%;
 }
 
-.caixa-verde-9 {
+.caixa-cac {
     width: 110px;
     height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
     position: absolute;
     left: 35%;
     top: 8%;
 }
 
-p#titulo-caixa-verde-9 {
-    font-size: 10pt;
+p#caixa-cac {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.5pt;
     line-height: 20px;
+    text-transform: uppercase;
+    color: #222;
     position: absolute;
     top: 22%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-p#subtitulo-caixa-verde-9 {
+p#cac-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 8pt;
+    line-height: 10px;
+    color: #000;
+    text-align: center;
     position: absolute;
     top: 66%;
     left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
-#tooltip-caixa-verde-9 {
+#tooltip-cac {
+    border: 2px solid #2F9E41;
     position: absolute;
     top: 45px;
     left: -25px;
     font-size: 9pt;
+}
+
+.caixa-coex {
+    width: 110px;
+    height: 52px;
+    border: 2px solid #2F9E41;
+    border-radius: 12px;
+    margin: 0 auto;
+    position: absolute;
+    left: 81%;
+    top: 8%;
+}
+
+p#caixa-coex {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.5pt;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #222;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+p#coex-subparagrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8pt;
+    line-height: 10px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#tooltip-coex {
+    border: 2px solid #2F9E41;
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    font-size: 9pt;
+}
+
+.parte-meio {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 749px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11pt;
+    align-items: center;
+    color: #222;
+}
+
+.parte-inferior {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 749px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol.lista-numerada {
+    list-style: none;
+    counter-reset: li;
+}
+
+li {
+    counter-increment: li;
+    position: relative;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.5pt;
+    line-height: 23px;
+    color: #222;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.4s;
+}
+
+.lista-numerada li:before {
+    content: counter(li);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45pt;
+    line-height: 75px;
+    color: #4F4F4F;
+    opacity: 0.2;
+    position: absolute;
+    top: -13px;
+    left: -10px;
+}
+
+li.item-lista-uma-linha {
+    padding-top: 10px;
+}
+
+.parte-inferior p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11pt;
+    align-items: center;
+    color: #222;
+}
+
+.lista-numerada li:hover {
+    width: 749px;
+    height: 52px;
+    background: #EAEBEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 22px;
+}
+
+li.dois-algarismos:hover {
+    padding-left: 56px;
 }
